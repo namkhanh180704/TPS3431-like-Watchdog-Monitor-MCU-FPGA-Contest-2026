@@ -1,0 +1,32 @@
+// =============================================================================
+// Constraints for Kiwi 1P5 — from official KiCad schematic (Rev v1.1)
+// =============================================================================
+
+// --- Clock: 27 MHz crystal X3 -> IOL6A (GCLKT_7), Pin 4 ---
+IO_LOC  "clk_27m"    4;
+IO_PORT "clk_27m"    IO_TYPE=LVCMOS33;
+
+// --- Button S1 (WDI/kick): IOR1B (KEY1), Pin 35 ---
+IO_LOC  "btn_s1_n"   35;
+IO_PORT "btn_s1_n"   IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// --- Button S2 (EN): IOR1A (KEY2), Pin 36 ---
+IO_LOC  "btn_s2_n"   36;
+IO_PORT "btn_s2_n"   IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// --- LED D3 (WDO): IOR17A, Pin 27 ---
+IO_LOC  "led_d3"     27;
+IO_PORT "led_d3"     IO_TYPE=LVCMOS33 DRIVE=8;
+
+// --- LED D4 (ENOUT): IOR15B, Pin 28 ---
+IO_LOC  "led_d4"     28;
+IO_PORT "led_d4"     IO_TYPE=LVCMOS33 DRIVE=8;
+
+// --- UART: GWU2U USB-UART (from schematic) ---
+// U2U_TXD (GWU2U TX -> FPGA RX): IOR11A, Pin 34
+IO_LOC  "uart_rxd"   33;
+IO_PORT "uart_rxd"   IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// U2U_RXD (FPGA TX -> GWU2U RX): IOR11B, Pin 33
+IO_LOC  "uart_txd"   34;
+IO_PORT "uart_txd"   IO_TYPE=LVCMOS33 DRIVE=8;

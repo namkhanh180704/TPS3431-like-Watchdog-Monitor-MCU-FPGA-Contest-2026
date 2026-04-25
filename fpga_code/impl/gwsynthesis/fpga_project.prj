@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-1P5C" package="QFN48XF" speed="7" partNumber="GW1N-UV1P5QN48XFC7/I6"/>
+    <FileList>
+        <File path="D:\FPGA_contest\FPGA\fpga_project\src\regfile.v" type="verilog"/>
+        <File path="D:\FPGA_contest\FPGA\fpga_project\src\sync_debounce.v" type="verilog"/>
+        <File path="D:\FPGA_contest\FPGA\fpga_project\src\uart_frame_parser.v" type="verilog"/>
+        <File path="D:\FPGA_contest\FPGA\fpga_project\src\uart_rx.v" type="verilog"/>
+        <File path="D:\FPGA_contest\FPGA\fpga_project\src\uart_tx.v" type="verilog"/>
+        <File path="D:\FPGA_contest\FPGA\fpga_project\src\watchdog_core.v" type="verilog"/>
+        <File path="D:\FPGA_contest\FPGA\fpga_project\src\watchdog_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\FPGA_contest\FPGA\fpga_project\impl\gwsynthesis\fpga_project.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="watchdog_top"/>
+        <Option type="vcc" value="3.3"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

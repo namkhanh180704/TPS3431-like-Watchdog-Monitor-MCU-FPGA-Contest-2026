@@ -1,0 +1,68 @@
+[
+ {
+  "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+  "InstLine" : 19,
+  "InstName" : "watchdog_top",
+  "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+  "ModuleLine" : 19,
+  "ModuleName" : "watchdog_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+    "InstLine" : 58,
+    "InstName" : "u_debounce_wdi",
+    "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/sync_debounce.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "sync_debounce"
+   },
+   {
+    "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+    "InstLine" : 77,
+    "InstName" : "u_debounce_en",
+    "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/sync_debounce.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "sync_debounce"
+   },
+   {
+    "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+    "InstLine" : 98,
+    "InstName" : "u_uart_rx",
+    "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/uart_rx.v",
+    "ModuleLine" : 7,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+    "InstLine" : 109,
+    "InstName" : "u_uart_tx",
+    "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/uart_tx.v",
+    "ModuleLine" : 6,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+    "InstLine" : 130,
+    "InstName" : "u_parser",
+    "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/uart_frame_parser.v",
+    "ModuleLine" : 17,
+    "ModuleName" : "uart_frame_parser"
+   },
+   {
+    "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+    "InstLine" : 179,
+    "InstName" : "u_regfile",
+    "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/regfile.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "regfile"
+   },
+   {
+    "InstFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_top.v",
+    "InstLine" : 207,
+    "InstName" : "u_wdt",
+    "ModuleFile" : "D:/FPGA_contest/FPGA/fpga_project/src/watchdog_core.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "watchdog_core"
+   }
+  ]
+ }
+]

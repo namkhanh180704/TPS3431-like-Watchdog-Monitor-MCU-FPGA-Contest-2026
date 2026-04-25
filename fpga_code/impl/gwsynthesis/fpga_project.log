@@ -1,0 +1,36 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\FPGA_contest\FPGA\fpga_project\src\regfile.v'
+Analyzing Verilog file 'D:\FPGA_contest\FPGA\fpga_project\src\sync_debounce.v'
+Analyzing Verilog file 'D:\FPGA_contest\FPGA\fpga_project\src\uart_frame_parser.v'
+Analyzing Verilog file 'D:\FPGA_contest\FPGA\fpga_project\src\uart_rx.v'
+Analyzing Verilog file 'D:\FPGA_contest\FPGA\fpga_project\src\uart_tx.v'
+Analyzing Verilog file 'D:\FPGA_contest\FPGA\fpga_project\src\watchdog_core.v'
+Analyzing Verilog file 'D:\FPGA_contest\FPGA\fpga_project\src\watchdog_top.v'
+Compiling module 'watchdog_top'("D:\FPGA_contest\FPGA\fpga_project\src\watchdog_top.v":19)
+Compiling module 'sync_debounce(DEBOUNCE_MS=15)'("D:\FPGA_contest\FPGA\fpga_project\src\sync_debounce.v":8)
+Compiling module 'uart_rx'("D:\FPGA_contest\FPGA\fpga_project\src\uart_rx.v":7)
+Compiling module 'uart_tx'("D:\FPGA_contest\FPGA\fpga_project\src\uart_tx.v":6)
+Compiling module 'uart_frame_parser'("D:\FPGA_contest\FPGA\fpga_project\src\uart_frame_parser.v":17)
+Compiling module 'regfile'("D:\FPGA_contest\FPGA\fpga_project\src\regfile.v":12)
+Compiling module 'watchdog_core'("D:\FPGA_contest\FPGA\fpga_project\src\watchdog_core.v":10)
+NOTE  (EX0101) : Current top module is "watchdog_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\FPGA_contest\FPGA\fpga_project\impl\gwsynthesis\fpga_project.vg" completed
+[100%] Generate report file "D:\FPGA_contest\FPGA\fpga_project\impl\gwsynthesis\fpga_project_syn.rpt.html" completed
+GowinSynthesis finish
