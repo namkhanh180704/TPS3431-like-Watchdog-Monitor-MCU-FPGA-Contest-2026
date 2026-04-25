@@ -221,3 +221,7 @@ FPGA/
 ## Language
 
 All RTL code is **pure Verilog-2001/2005** (no SystemVerilog constructs). Compatible with Gowin EDA, Icarus Verilog, and ModelSim.
+
+## Github
+
+All code and document provide in link: https://github.com/namkhanh180704/TPS3431-like-Watchdog-Monitor-MCU-FPGA-Contest-2026.git
