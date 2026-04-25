@@ -193,22 +193,21 @@ All 9 automated tests passed on Kiwi 1P5 board via `watchdog_test.py`:
 ## File Structure
 
 ```
-watchdog/
-├── rtl/
+fpga_code/
+├── impl/
+├── src/
 │   ├── watchdog_top.v          # Top-level (27 MHz crystal clock)
 │   ├── watchdog_core.v         # Watchdog FSM + timers
 │   ├── sync_debounce.v         # Button synchronizer + debounce
 │   ├── regfile.v               # Configuration registers
 │   ├── uart_rx.v               # UART receiver
 │   ├── uart_tx.v               # UART transmitter
-│   └── uart_frame_parser.v     # Frame protocol engine
-├── sim/
+│   ├── uart_frame_parser.v     # Frame protocol engine
 │   ├── tb_watchdog_core.v      # Unit test: watchdog core + debounce
-│   └── tb_watchdog_system.v    # Full system test with UART frames
-├── constraints/
+│   ├── tb_watchdog_system.v    # Full system test with UART frames
 │   └── kiwi_1p5.cst            # Pin constraints (verified on hardware)
-├── tools/
-│   └── watchdog_test.py        # Python UART test + interactive tool
+├── fpga_project.gprj           # Project file
+├── fpga_project.gprj.user      # Can remove this file
 └── README.md
 ```
 
